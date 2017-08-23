@@ -5,7 +5,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet"  href="{% static 'css/main.css' %}">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<title>Shop Jamaica</title>
 </head>
 
@@ -20,32 +20,39 @@
 
 	
 		
-	<nav class="navbar navbar-toggleable-md navbar-light bg-faded" role="navigation">
+	<nav style="background-color: #2d4366; color: #ffffff;" class="navbar navbar-toggleable-md navbar-light bg-faded" role="navigation">
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainnavbar" aria-controls="mainnavbar" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		  
-		<a class="navbar-brand" href="#">SHOPPING IS THE BEST THING EVER</a>
+		<a style="color: #ffffff;" class="navbar-brand" href="#">Shop Jamaica</a>
 
 		<div class="collapse navbar-collapse" id="mainnavbar">
 			<ul class="nav navbar-nav navbar-center">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Departments <span class="sr-only">(current)</span> </a>
+					<a style="color: #ffffff;" class="nav-link" href="#">Departments <span class="sr-only">(current)</span> </a>
 				</li>
 
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Contact u mada</a>
+					<a style="color: #ffffff;" class="nav-link" href="#">Contact</a>
 				</li>
 
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Help me please</a>
+					<a style="color: #ffffff;" class="nav-link" href="#">Help</a>
 				</li>
 			</ul>
 
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="text" placeholder="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			</form>
+	
+
+
+			<div style="width: 250px; border-radius: 50px;" class="input-group right-inner-addon">
+    				
+				<input type="text" class="form-control" placeholder="Search ..." style="border-radius: 50px;"/>
+				<!--<button type="button" class="btn btn-default" aria-label="Search">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</button>-->
+									
+			</div><!-- /input-group -->
 
 		</div>  
 
